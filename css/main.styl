@@ -1,0 +1,197 @@
+$background-1 = #3FC380
+$poppins =  'Poppins'
+$lobster = 'Lobster'
+$bold = 'Archivo Black'
+$patua = 'Patua One'
+$slab = 'Josefin Slab'
+$hitam = #333
+$putih = #ECF0F1
+
+
+
+h1, h2, h3
+	font-family $lobster, sans-serif
+.tulisan-gede
+	color $putih
+	font-size 4em
+	position absolute
+	right 2em
+	bottom 50px
+	line-height 0
+	h1
+		font-size 1em
+		font-family helvetica
+		font-weight bold
+		margin-bottom 0
+		animation 10s glow infinite linear
+	.kecilz
+		color #36D7B7
+	.kecil
+		font-size 0.5em
+	.kecilbgt
+		font-size 0.2em
+		position absolute
+	.kecilbgt2
+		font-size 0.2em
+	.kecil1
+		font-size 0.2em
+		position absolute
+		transform rotate(90deg)
+		left -55px
+		bottom 45px
+	.kecil2
+		font-size 0.2em
+		position absolute
+		right 50px
+		top 27px
+	.kecil3
+		font-size 0.5em
+		position absolute
+		left 0
+		top -5px
+	.kecil4
+		font-size 0.2em
+		position absolute
+		right 252px
+		top 26px
+		color #ee6e73
+	.kecil5
+		font-size 0.2em
+		position absolute
+		right -25px
+		bottom 27px
+		transform rotate(90deg)
+		font-family $patua
+.2tulisan-gede
+	color black
+	font-size 4em
+	position absolute
+	left 2em
+	bottom 0
+	line-height 0
+	> *
+		position absolute
+.dalem-kotak
+	left -65px
+	transform rotate(90deg)
+	position absolute
+	bottom 85px
+	font-family $slab
+	font-weight bold
+	color black
+.dalem-kotak-putih
+	transform rotate(-90deg)
+	position absolute
+	top 80px
+	right -50px
+	font-family $slab
+	font-weight bold
+	color $putih
+
+.penutup
+	width 100%
+	height 70%
+	background-color black
+	position absolute
+	transform skewY(7deg)
+	top -159px
+	overflow hidden
+	.kotak-putih
+		border 20px solid $putih
+		padding 30px
+		position absolute
+		text-align center
+		min-width 35em
+		bottom 0
+		left 50%
+		margin-right 50%
+		height 11em
+		bottom -63px
+		transform translate(-50%, 0) skewY(-6deg)
+		h1
+			color $putih
+			font-size 5em
+		
+.tertutup
+	background-color #ECF0F1
+	position relative
+	height 100%
+	.kotak-hitam
+		border 20px solid black
+		padding 55px 30px 0
+		position absolute
+		text-align center
+		min-width 35em
+		left 50%
+		margin-right 50%
+		height 11em
+		bottom 27%
+		transform translateX(-50%)
+		h1
+			color black
+			font-size 5em
+	.bawah-kiri
+		position absolute
+		bottom 0.2em
+		left 2em
+.scrolldown
+	opacity 1
+	font-size 3em
+	position absolute
+	top 70%
+	left 50%
+	margin-right -50%
+	transform: translate(-50%, -50%)
+	text-shadow rgba(4,4,4,4)
+	
+.hello
+	font-size 3em
+	text-align center
+
+.k1
+	-webkit-transition: all .25s ease
+	   -moz-transition: all .25s ease
+	    -ms-transition: all .25s ease
+	     -o-transition: all .25s ease
+	        transition: all .25s ease
+
+h1
+	font-family $lobster, sans-serif
+	margin 5px 0
+	strike
+		font-family $bold
+	span
+		font-family $lobster, sans-serif
+		font-weight bold
+		color white
+.w1
+	letter-spacing 1px
+
+body
+	font-size 24px
+
+#section-1
+	position relative
+	
+
+	
+#otak
+	width 100%
+	margin-bottom 2.4em
+	
+.arrow
+	position absolute
+	color $hitam
+	font-size 4em
+	right 2em
+	top 5em
+	&:hover
+		color white
+		
+@keyframes {glow}
+	0%
+		text-shadow 0 0 0px white
+	50%
+		text-shadow 0 0 90px white
+	100%
+		text-shadow 0 0 0px white
